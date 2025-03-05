@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentManagerInterviewApi", "RentManagerInterviewApi\RentManagerInterviewApi.csproj", "{DF463C30-BAD4-4C39-8E0B-4B9F21453964}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF463C30-BAD4-4C39-8E0B-4B9F21453964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF463C30-BAD4-4C39-8E0B-4B9F21453964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF463C30-BAD4-4C39-8E0B-4B9F21453964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF463C30-BAD4-4C39-8E0B-4B9F21453964}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C884053F-A2A3-41AE-8B4F-32A176460B71}
+	EndGlobalSection
+EndGlobal
