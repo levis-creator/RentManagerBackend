@@ -1,0 +1,10 @@
+services:
+  rentmanagerinterviewapi:
+    image: ${DOCKER_REGISTRY-}rentmanagerinterviewapi
+    container_name: rentmanagerinterview.api
+    build:
+      context: .
+      dockerfile: RentManagerInterviewApi/Dockerfile
+    ports:
+    - "8080:8080"
+    - "8081:8081"

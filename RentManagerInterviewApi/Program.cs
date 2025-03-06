@@ -21,18 +21,18 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 var devConnectionString = builder.Configuration.GetConnectionString("DevelopmentDb");
 var environment = builder.Environment;
 builder.Services.AddContracts();
-if (!environment.IsDevelopment())
-{
+//if (!environment.IsDevelopment())
+//{
     Console.WriteLine("Using In-Memory Database for Development...");
     builder.Services.AddDbContext<ApplicationDbContext>(options =>
         options.UseSqlite(connectionString));
-}
-else
-{
-    Console.WriteLine("Using SQL Server for Production...");
-    builder.Services.AddDbContext<ApplicationDbContext>(options =>
-        options.UseSqlServer(devConnectionString));
-}
+//}
+//else
+//{
+//    Console.WriteLine("Using SQL Server for Production...");
+//    builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//        options.UseSqlServer(devConnectionString));
+//}
 
 builder.Services.AddAuthorization();
 
